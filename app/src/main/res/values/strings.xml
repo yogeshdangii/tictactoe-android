@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Experimental</string>
+    <string name="app_name">Tic-Tac-Toe</string>
     <string name="hint1"> player 1 name \'X\' </string>
     <string name="hint2">player 2 name \'O\' </string>
 </resources>
