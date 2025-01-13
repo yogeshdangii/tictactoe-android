@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maingame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MAINGAME"
+    android:background="@drawable/newmaingame"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+    <TextView
+        android:id="@+id/turn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/white">
+
+    </TextView>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id = "@+id/btn1"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:backgroundTint="#33808080"
+            android:onClick="Action"
+            android:textSize="30sp"
+
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id = "@+id/btn2"
+            android:layout_height="100dp"
+            android:layout_width="100dp"
+            android:backgroundTint="#33808080"
+            android:onClick="Action"
+            android:textSize="30sp">
+
+        </androidx.appcompat.widget.AppCompatButton>   <androidx.appcompat.widget.AppCompatButton
+        android:id = "@+id/btn3"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:backgroundTint="#33808080"
+        android:onClick="Action"
+        android:textSize="30sp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>   <androidx.appcompat.widget.AppCompatButton
+        android:id = "@+id/btn4"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:backgroundTint="#33808080"
+        android:onClick="Action"
+        android:textSize="30sp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>   <androidx.appcompat.widget.AppCompatButton
+        android:id = "@+id/btn5"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:backgroundTint="#33808080"
+        android:onClick="Action"
+        android:textSize="30sp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>   <androidx.appcompat.widget.AppCompatButton
+        android:id = "@+id/btn6"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:backgroundTint="#33808080"
+        android:onClick="Action"
+        android:textSize="30sp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>   <androidx.appcompat.widget.AppCompatButton
+        android:id = "@+id/btn7"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:backgroundTint="#33808080"
+        android:onClick="Action"
+        android:textSize="30sp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>   <androidx.appcompat.widget.AppCompatButton
+        android:id = "@+id/btn8"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:backgroundTint="#33808080"
+        android:onClick="Action"
+        android:textSize="30sp"
+        >
+    </androidx.appcompat.widget.AppCompatButton>   <androidx.appcompat.widget.AppCompatButton
+        android:id = "@+id/btn9"
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:backgroundTint="#33808080"
+        android:onClick="Action"
+        android:textSize="30sp"
+
+        >
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    </GridLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/resetbut"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#33808080"
+        android:text="Reset"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        >
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+</LinearLayout>
